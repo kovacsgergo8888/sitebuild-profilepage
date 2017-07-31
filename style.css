@@ -1,0 +1,38 @@
+* {
+    margin: 0px auto;
+}
+
+body {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 1170px;
+    text-align: left;
+}
+
+.head {
+    height: 400px;
+}
+
+.head div {
+    float: left;
+}
+
+.head .right {
+    position: relative;
+    top: 30px;
+}
+
+.head .left img {
+    width: 400px;
+    border-radius: 50%;
+}
+
+.content {
+    width: 900px;
+}
