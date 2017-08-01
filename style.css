@@ -59,3 +59,15 @@ h3 {
     width: 400px;
     height: 200px;
 }
+
+.content .list {
+    width: 50%;
+}
+
+.content .list img {
+    width: 50%;
+}
+
+.pull-left {
+    float: left;;
+}
