@@ -6,40 +6,63 @@
     <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="head">
-            <div class="left">
-                <img src="img/me.jpg">
-            </div>
-            <div class="right">
-                <h1>Kovács Gergely</h1>
-                <h2>developer@INNONIC</h2>
-                <h3>+36/20-***-**** | gergo.kovacs@asdf.hu</h3>
-            </div>
+<div class="container">
+    <div class="head box">
+        <div class="left">
+            <img src="img/me.jpg">
         </div>
-        <div class="clear"></div>
-        <div class="content">
-            <div class="about">Lorem ipsum</div>
-            <div class="skills">
-                <ul class="skill-list">
-                    <li>valami</li>
-                    <li>eflsijf</li>
-                    <li>sehgt</li>
-                    <li>erogjisr</li>
-                    <li>erogjieorigj</li>
-                    <li>j34ötj</li>
-                </ul>
-            </div>
-            <div class="contact">
-                <form action="">
-                    <label for="name">Név: <input name="name" id="name"></label>
-                    <label for="email">E-mail: <input type="email" name="email" id="email"></label>
-                    <label for="message">Üzenet: <textarea id="message"></textarea></label>
-                    <input type="submit" value="Send">
-                </form>
-            </div>
+        <div class="right">
+            <h1>Kovács Gergely</h1>
+            <h2>developer@INNONIC</h2>
+            <h3>+36/20-***-**** | gergo.kovacs@asdf.hu</h3>
         </div>
-        <div class="footer"></div>
     </div>
+    <div class="clear"></div>
+    <div class="content box">
+        <div class="about">
+            <h3>About me:</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vulputate dui urna, ac dictum turpis
+                elementum vel. Aliquam sodales elementum sagittis. Sed convallis augue ac ante commodo pulvinar vitae
+                sed justo. Ut volutpat at est et malesuada. Quisque leo erat, commodo quis malesuada eget, ullamcorper
+                ac ante. Suspendisse sit amet erat ut odio rutrum condimentum eget a dui. Pellentesque vel nisl dapibus
+                quam commodo luctus in nec arcu.</p>
+
+            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer quis
+                aliquet libero. Maecenas id varius justo, eu consequat mi. Cras at tincidunt tellus. Pellentesque
+                sodales consectetur elit, in placerat magna imperdiet ut. Sed aliquet cursus urna, molestie accumsan
+                orci dapibus eu. Duis efficitur ornare commodo. Nam lobortis, quam condimentum feugiat tempor, elit eros
+                aliquam ipsum, sed varius turpis tellus at nisl. Maecenas scelerisque dapibus lectus ut commodo.
+                Suspendisse at mi gravida, tempor dolor in, pretium urna.</p>
+        </div>
+        <div class="skills">
+            <h3>Skills:</h3>
+            <ul class="skill-list">
+                <li>php</li>
+                <li>mysql</li>
+                <li>linux</li>
+                <li>nodejs</li>
+                <li>html&css (soon)</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="footer box">
+        <div class="contact">
+            <h3>Contact me!</h3>
+            <form action="" method="post">
+                <div class="form-row">
+                    <label for="name">Name: <input name="name" id="name"></label>
+                </div>
+                <div class="form-row">
+                    <label for="email">E-mail: <input type="email" name="email" id="email"></label>
+                </div>
+                <div class="form-row">
+                    <label for="message">Message:<br><textarea id="message"></textarea></label>
+                </div>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+</div>
 </body>
 </html>

@@ -16,16 +16,20 @@ body {
     text-align: left;
 }
 
-.head {
-    height: 350px;
+.box {
     border-radius: 20px;
     border: 3px solid grey;
-    margin: 30px 0px;
+    margin: 30px 0;
     box-shadow: 20px 20px 20px darkslategray;
+    padding: 20px 50px;
+}
+
+.head {
+    height: 150px;
 }
 
 .head div {
-    padding: 20px 50px;
+    padding: 4px 50px;
     float: left;
 }
 
@@ -35,10 +39,23 @@ body {
 }
 
 .head .left img {
-    width: 300px;
+    width: 140px;
     border-radius: 50%;
 }
 
-.content {
-    width: 900px;
+.about p {
+    margin-top: 10px;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+.form-row {
+    margin: 20px 0;
+}
+
+.contact textarea {
+    width: 400px;
+    height: 200px;
 }
